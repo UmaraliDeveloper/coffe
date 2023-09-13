@@ -1,0 +1,39 @@
+.header {
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    width: 236px;
+    height: 26px;
+    flex-shrink: 0;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  &__link {
+    color: #84888e;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    transition: all 0,03s linear;
+    &:hover {
+      color: #141415;
+      font-family: Barlow;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 15px; /* 125% */
+      letter-spacing: 0.923px;
+      text-transform: uppercase;
+    }
+  }
+}
