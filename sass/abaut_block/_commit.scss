@@ -1,0 +1,29 @@
+.commit {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 168px;
+
+  &__img {
+    width: 485px;
+    height: 606px;
+  }
+  &__title {
+    color: #333d4b;
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 120% */
+  }
+  &__text {
+    margin-top: 30p;
+    width: 540px;
+    color: #333d4b;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+  }
+}

@@ -1,9 +1,18 @@
-.header {
-}
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  &__burger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+  }
+  &__span {
+    width: 16px;
+    height: 5px;
+    background-color: black;
+  }
 
   &__logo {
     width: 236px;
@@ -24,7 +33,8 @@
     line-height: 15px; /* 125% */
     letter-spacing: 0.923px;
     text-transform: uppercase;
-    transition: all 0,03s linear;
+    transition: all 0, 03s linear;
+
     &:hover {
       color: #141415;
       font-family: Barlow;
@@ -34,6 +44,17 @@
       line-height: 15px; /* 125% */
       letter-spacing: 0.923px;
       text-transform: uppercase;
+    }
+  }
+}
+@media only screen and (max-width: 412px) {
+  .navbar {
+    &__logo {
+      width: 163px;
+      height: 18px;
+    }
+    &__list {
+      display: none;
     }
   }
 }

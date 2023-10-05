@@ -1,0 +1,44 @@
+.cardss {
+  width: 100%;
+  margin-top: 150px;
+
+  &__title {
+    margin: 0px 80px 72px;
+    width: 255px;
+    color: #83888f;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+  }
+  &__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  &__imgg {
+    width: 40.842px;
+    height: 49.072px;
+    flex-shrink: 0;
+  }
+  &__canada {
+    margin: 30px 0px 20px;
+    width: 272px;
+    color: #333d4b;
+    font-family: Fraunces 9pt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+  }
+  &__text {
+    width: 285px;
+    color: #333d4b;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+  }
+}
